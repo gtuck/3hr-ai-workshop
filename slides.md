@@ -199,7 +199,7 @@ layout: two-cols-header
 
 <v-clicks>
 
-- **You can talk to it naturally**<br>It feels more like messaging a helper than programming a machine.
+- **You can talk to it naturally**<br>It feels more like messaging a helper than programming a machine <a href="https://app.sesame.com/" target="_blank">Conversational Demo</a>
 
 - **It works on the devices people already own**<br>Most people can try it on a phone in minutes.
 
