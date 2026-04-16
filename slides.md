@@ -1,79 +1,32 @@
 ---
-# try also 'default' to start simple
-theme: seriph
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
-# some information about your slides (markdown enabled)
-title: Welcome to Slidev
-info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+theme: apple-basic
+# background: https://cover.sli.dev
 
-  Learn more at [Sli.dev](https://sli.dev)
-# apply UnoCSS classes to the current slide
+# force color schema for the slides, can be 'auto', 'light', or 'dark'
+colorSchema: light
+
+# favicon, can be a local file path or URL
+favicon: "https://garthtuck.com/images/favicon.ico"
+
+# some information about your slides (markdown enabled)
+title: Getting Started with AI
 class: text-center
-# https://sli.dev/features/drawing
-drawings:
-  persist: false
+layout: center
+
+# author field for exported PDF or PPTX
+author: Garth Tuck
+
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
 transition: slide-left
-# enable Comark Syntax: https://comark.dev/syntax/markdown
-comark: true
-# duration of the presentation
-duration: 35min
+
+download: true
+exportFilename: Garth-Tuck-AI-Workshop
 ---
-
-# Welcome to Slidev
-
-Presentation slides for developers
-
-<div @click="$slidev.nav.next" class="mt-12 py-1" hover:bg="white op-10">
-  Press Space for next page <carbon:arrow-right />
-</div>
-
-<div class="abs-br m-6 text-xl">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="slidev-icon-btn">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
-</div>
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
----
-transition: fade-out
----
-
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - themes can be shared and re-used as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/features/slide-scope-style
--->
 
 <style>
 h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-color: #492365;
+  background-image: linear-gradient(45deg, #814d9d 10%, #a275b3 20%);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -82,556 +35,783 @@ h1 {
 }
 </style>
 
-<!--
-Here is another comment.
--->
+# Welcome
 
----
-transition: slide-up
-level: 2
----
+**Getting Started with AI**
 
-# Navigation
+### Presenter:
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/ui#navigation-bar)
-
-## Keyboard Shortcuts
-
-|                                                     |                             |
-| --------------------------------------------------- | --------------------------- |
-| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd>                                       | previous slide              |
-| <kbd>down</kbd>                                     | next slide                  |
-
-<!-- https://sli.dev/guide/animations.html#click-animation -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: two-cols
-layoutClass: gap-16
----
-
-# Table of contents
-
-You can use the `Toc` component to generate a table of contents for your slides:
-
-```html
-<Toc minDepth="1" maxDepth="1" />
-```
-
-The title will be inferred from your slide content, or you can override it with `title` and `level` in your frontmatter.
-
-::right::
-
-<Toc text-sm minDepth="1" maxDepth="2" />
+**Garth Tuck**
 
 ---
 layout: image-right
-image: https://cover.sli.dev
+
+image: /title-slide.png
 ---
 
-# Code
+# Workshop Goals:
 
-Use code snippets and get the highlighting directly, and even types hover!
-
-```ts [filename-example.ts] {all|4|6|6-7|9|all} twoslash
-// TwoSlash enables TypeScript hover information
-// and errors in markdown code blocks
-// More at https://shiki.style/packages/twoslash
-import { computed, ref } from 'vue'
-
-const count = ref(0)
-const doubled = computed(() => count.value * 2)
-
-doubled.value = 2
-```
-
-<arrow v-click="[4, 5]" x1="350" y1="310" x2="195" y2="342" color="#953" width="2" arrowSize="1" />
-
-<!-- This allow you to embed external code blocks -->
-<<< @/snippets/external.ts#snippet
-
-<!-- Footer -->
-
-[Learn more](https://sli.dev/features/line-highlighting)
-
-<!-- Inline style -->
-<style>
-.footnotes-sep {
-  @apply mt-5 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
-<!--
-Notes can also sync with clicks
-
-[click] This will be highlighted after the first click
-
-[click] Highlighted with `count = ref(0)`
-
-[click:3] Last click (skip two clicks)
--->
+- Understand what generative AI is and how it works  
+- Explore real-world examples of how AI already impacts our lives  
+- A few milestones in AI history and key AI vocabulary and concepts  
+- Practice writing effective prompts to get helpful responses from ChatGPT  
+- Try hands-on tools and leave with ideas you can apply right away  
+- Build a mini “AI starter kit” across **3 one‑hour sessions** (with a take‑home task)  
+- Have FUN!!!
 
 ---
-level: 2
+layout: two-cols-header
 ---
 
-# Shiki Magic Move
+# Series Agenda + Housekeeping
 
-Powered by [shiki-magic-move](https://shiki-magic-move.netlify.app/), Slidev supports animations across multiple code snippets.
+::left::
 
-Add multiple code blocks and wrap them with <code>````md magic-move</code> (four backticks) to enable the magic move. For example:
+### Workshop Environment:
+- Open, inclusive, and curiosity-driven
 
-````md magic-move {lines: true}
-```ts {*|2|*}
-// step 1
-const author = reactive({
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-})
-```
+### 3 x 1‑Hour Sessions
+- **Session 1 — Foundations:** What GenAI is, vocabulary, milestones, safety & privacy
+- **Session 2 — Prompting + Practice:** Prompt patterns, demos, guided hands‑on
+- **Session 3 — Apply + Plan:** Tools landscape, workflows, your personal action plan
 
-```ts {*|1-2|3-4|3-4,8}
-// step 2
-export default {
-  data() {
-    return {
-      author: {
-        name: 'John Doe',
-        books: [
-          'Vue 2 - Advanced Guide',
-          'Vue 3 - Basic Guide',
-          'Vue 4 - The Mystery'
-        ]
-      }
-    }
-  }
-}
-```
+::right::
 
-```ts
-// step 3
-export default {
-  data: () => ({
-    author: {
-      name: 'John Doe',
-      books: [
-        'Vue 2 - Advanced Guide',
-        'Vue 3 - Basic Guide',
-        'Vue 4 - The Mystery'
-      ]
-    }
-  })
-}
-```
-
-Non-code blocks are ignored.
-
-```vue
-<!-- step 4 -->
-<script setup>
-const author = {
-  name: 'John Doe',
-  books: [
-    'Vue 2 - Advanced Guide',
-    'Vue 3 - Basic Guide',
-    'Vue 4 - The Mystery'
-  ]
-}
-</script>
-```
-````
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
----
-theme: seriph
----
-```
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true" alt="">
-
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true" alt="">
-
-</div>
-
-Read more about [How to use a theme](https://sli.dev/guide/theme-addon#use-theme) and
-check out the [Awesome Themes Gallery](https://sli.dev/resources/theme-gallery).
-
----
-
-# Clicks Animations
-
-You can add `v-click` to elements to add a click animation.
-
-<div v-click>
-
-This shows up when you click the slide:
-
-```html
-<div v-click>This shows up when you click the slide.</div>
-```
-
-</div>
-
-<br>
-
-<v-click>
-
-The <span v-mark.red="3"><code>v-mark</code> directive</span>
-also allows you to add
-<span v-mark.circle.orange="4">inline marks</span>
-, powered by [Rough Notation](https://roughnotation.com/):
-
-```html
-<span v-mark.underline.orange>inline markers</span>
-```
-
-</v-click>
-
-<div mt-20 v-click>
-
-[Learn more](https://sli.dev/guide/animations#click-animation)
-
-</div>
-
----
-
-# Motions
-
-Motion animations are powered by [@vueuse/motion](https://motion.vueuse.org/), triggered by `v-motion` directive.
-
-```html
-<div
-  v-motion
-  :initial="{ x: -80 }"
-  :enter="{ x: 0 }"
-  :click-3="{ x: 80 }"
-  :leave="{ x: 1000 }"
->
-  Slidev
-</div>
-```
-
-<div class="w-60 relative">
-  <div class="relative w-40 h-40">
-    <img
-      v-motion
-      :initial="{ x: 800, y: -100, scale: 1.5, rotate: -50 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-square.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ y: 500, x: -100, scale: 2 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-circle.png"
-      alt=""
-    />
-    <img
-      v-motion
-      :initial="{ x: 600, y: 400, scale: 2, rotate: 100 }"
-      :enter="final"
-      class="absolute inset-0"
-      src="https://sli.dev/logo-triangle.png"
-      alt=""
-    />
-  </div>
-
-  <div
-    class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
-    v-motion
-    :initial="{ x: -80, opacity: 0}"
-    :enter="{ x: 0, opacity: 1, transition: { delay: 2000, duration: 1000 } }">
-    Slidev
-  </div>
-</div>
-
-<!-- vue script setup scripts can be directly used in markdown, and will only affects current page -->
-<script setup lang="ts">
-const final = {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  scale: 1,
-  transition: {
-    type: 'spring',
-    damping: 10,
-    stiffness: 20,
-    mass: 2
-  }
-}
-</script>
-
-<div
-  v-motion
-  :initial="{ x:35, y: 30, opacity: 0}"
-  :enter="{ y: 0, opacity: 1, transition: { delay: 3500 } }">
-
-[Learn more](https://sli.dev/guide/animations.html#motion)
-
-</div>
-
----
-
-# $\LaTeX$
-
-$\LaTeX$ is supported out-of-box. Powered by [$\KaTeX$](https://katex.org/).
-
-<div h-3 />
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$ {1|3|all}
-\begin{aligned}
-\nabla \cdot \vec{E} &= \frac{\rho}{\varepsilon_0} \\
-\nabla \cdot \vec{B} &= 0 \\
-\nabla \times \vec{E} &= -\frac{\partial\vec{B}}{\partial t} \\
-\nabla \times \vec{B} &= \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}
-\end{aligned}
-$$
-
-[Learn more](https://sli.dev/features/latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-4 gap-5 pt-4 -mb-6">
-
-```mermaid {scale: 0.5, alt: 'A simple sequence diagram'}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```mermaid
-mindmap
-  root((mindmap))
-    Origins
-      Long history
-      ::icon(fa fa-book)
-      Popularisation
-        British popular psychology author Tony Buzan
-    Research
-      On effectiveness<br/>and features
-      On Automatic creation
-        Uses
-            Creative techniques
-            Strategic planning
-            Argument mapping
-    Tools
-      Pen and paper
-      Mermaid
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-Learn more: [Mermaid Diagrams](https://sli.dev/features/mermaid) and [PlantUML Diagrams](https://sli.dev/features/plantuml)
-
----
-foo: bar
-dragPos:
-  square: 691,32,167,_,-16
----
-
-# Draggable Elements
-
-Double-click on the draggable elements to edit their positions.
-
-<br>
-
-###### Directive Usage
-
-```md
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-```
-
-<br>
-
-###### Component Usage
-
-```md
-<v-drag text-3xl>
-  <div class="i-carbon:arrow-up" />
-  Use the `v-drag` component to have a draggable container!
-</v-drag>
-```
-
-<v-drag pos="663,206,261,_,-15">
-  <div text-center text-3xl border border-main rounded>
-    Double-click me!
-  </div>
-</v-drag>
-
-<img v-drag="'square'" src="https://sli.dev/logo.png">
-
-###### Draggable Arrow
-
-```md
-<v-drag-arrow two-way />
-```
-
-<v-drag-arrow pos="67,452,253,46" two-way op70 />
-
----
-src: ./pages/imported-slides.md
-hide: false
----
-
----
-
-# Monaco Editor
-
-Slidev provides built-in Monaco Editor support.
-
-Add `{monaco}` to the code block to turn it into an editor:
-
-```ts {monaco}
-import { ref } from 'vue'
-import { emptyArray } from './external'
-
-const arr = ref(emptyArray(10))
-```
-
-Use `{monaco-run}` to create an editor that can execute the code directly in the slide:
-
-```ts {monaco-run}
-import { version } from 'vue'
-import { emptyArray, sayHello } from './external'
-
-sayHello()
-console.log(`vue ${version}`)
-console.log(emptyArray<number>(10).reduce(fib => [...fib, fib.at(-1)! + fib.at(-2)!], [1, 1]))
-```
+### Housekeeping
+- Wi‑Fi: [Liahona], Password: [alma3738]
+- Pair up if you don’t have a device
+- Raise your hand for help anytime
+<br><br><br><br><br><br><br><br><br>
 
 ---
 layout: center
 class: text-center
 ---
 
-# Learn More
+# Session 1
+**Foundations: What AI is + how to use it safely**
 
-[Documentation](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/resources/showcases)
+---
+layout: two-cols-header
+---
 
-<PoweredBySlidev mt-10 />
+# Session 1 Agenda (60 minutes)
+
+::left::
+
+- Welcome + quick intros (5)
+- AI in daily life (10)
+- Core vocabulary (10)
+- Key milestones (10)
+
+::right::
+
+- What ChatGPT is / isn’t (10)
+- Privacy + safety basics (10)
+- Wrap + prep for Session 2 (5)
+<br><br><br><br><br><br><br><br><br>
+
+---
+layout: quote
+---
+
+# AI in our world
+
+**Where do you think AI might already be helping you in daily life—without you even realizing it?**
+
+---
+
+# A few examples include:
+
+<v-clicks>
+
+1. **📸 Photo Tagging & Face Recognition** Your phone or social media app automatically groups your photos by faces or places—powered by AI.
+
+2. **🔍 Search Suggestions** As you type, search engines guess what you mean based on past searches and trends—thank AI for that.
+
+3. **🧭 GPS & Maps** AI predicts traffic, suggests faster routes, and updates real-time arrival times.
+
+4. **📺 Streaming Recommendations** Netflix, YouTube, Spotify, etc., use AI to suggest shows or songs based on what you've watched or listened to.
+
+5. **📱 Voice Assistants** Siri, Alexa, and Google Assistant recognize speech, interpret commands, and even hold mini conversations.
+
+6. **📝 Autocorrect & Smart Text Prediction** Your phone suggests the next word or fixes typos as you type—that’s AI anticipating your intent.
+
+7. **🌡️ Smart Home Devices** Thermostats like Nest learn your preferences and adjust temperatures automatically to save energy.
+
+</v-clicks>
+---
+layout: two-cols-header
+---
+
+# Common AI Vocabulary
+
+::left::
+
+<v-clicks>
+
+- **AI (Artificial Intelligence)**<br>A computer system that can perform tasks usually requiring human intelligence (like understanding language or recognizing images).
+
+- **ML (Machine Learning)**<br>A type of AI where computers learn from data and improve over time without being explicitly programmed.
+
+- **GPT (Generative Pre-trained Transformer)**<br>A large language model trained on tons of text to predict and generate human-like responses.
+
+- **LLM (Large Language Model)**<br>A type of AI trained on massive text data to understand and generate human language.
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+- **Token**<br>A piece of a word or character that the AI processes; for example, “chatting” might be split into “chat” and “ting”.
+
+- **Prompt**<br>The input or question you give to an AI—what you type to start the conversation.
+
+- **Training Data**<br>The information (usually lots of text) used to teach the AI how to understand and respond.
+
+- **Inference**<br>The process of the AI generating a response based on your input—it’s “thinking” time for the model.
+
+</v-clicks>
+
+---
+
+# Moments That Matter (AI)
+
+```mermaid
+timeline
+  1950 : Alan Turing proposes the Turing Test
+  1956 : Dartmouth coins “AI”
+  1997 : Deep Blue beats Kasparov
+  2012 : ImageNet/AlexNet breakthrough
+  2022 : ChatGPT released to the public
+  2024 : GPT‑4o popularizes real‑time multimodal (text+vision+audio)
+  2024 : Sora (text‑to‑video) released
+  2025 : Sora 2 (video+audio) released
+```
+
+<v-clicks>
+
+- 1950 — Turing Test proposed (Can machines converse like humans?)
+- 1956 — Dartmouth workshop coined the term “Artificial Intelligence”
+- 1997 — Deep Blue defeats Garry Kasparov (chess milestone)
+- 2012 — ImageNet/AlexNet sparks the modern deep learning boom
+- 2022 — ChatGPT released to the public
+- 2024 — GPT‑4o brings text, vision, and audio together in one model
+- 2024 — Sora brings text‑to‑video to mainstream users
+---
+layout: two-cols-header
+---
+
+# More AI Milestones
+
+::left::
+
+<v-clicks>
+
+- **2011 – IBM Watson Wins Jeopardy!**<br>Defeats human champions with deep NLP (Natural Language Processing) and fact retrieval.
+
+- **2012 – ImageNet & AlexNet Breakthrough**<br>Deep learning revolution begins with CNNs (Convolutional Neural Networks) and visual recognition success.
+
+- **2016 – AlphaGo Beats Lee Sedol**<br>Reinforcement learning and self-play reach new levels of strategy.
+
+- **2020 – GPT-3 Released by OpenAI**<br>Natural language generation reaches astonishing fluency and scale.
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+- **2022 – ChatGPT Goes Mainstream**<br>Conversational AI enters daily use with GPT-powered assistants.
+
+- **2023 – AI-Generated Art and Code Boom**<br>Tools like DALL·E, Copilot, and Midjourney reshape creative and coding work.
+
+- **2024 – GPT‑4o (Multimodal) Release**<br>A major step toward seamless text, image, and voice experiences.
+
+- **2025 – Sora 2 Release**<br>Video + audio generation in a single system.
+
+</v-clicks>
+<br>
+<br>
+<br>
+
+---
+layout: two-cols-header
+---
+
+# What ChatGPT Is and Isn’t
+
+
+::left::
+
+<v-clicks>
+
+## What it’s good at
+
+</v-clicks>
+
+<v-clicks>
+
+- **Drafting and rewriting** → Generates first drafts, refines text, and adapts tone or style.
+
+- **Summarizing and outlining** → Condenses long materials into key points or structured outlines.
+
+- **Brainstorming ideas** → Sparks creativity for names, titles, lessons, or storylines.
+
+- **Explaining concepts** → Breaks down complex topics in plain language or step-by-step guides.
+
+- **Tutoring and learning aid** → Provides examples, explanations, and feedback for study or practice.
+
+</v-clicks>
+
+::right::
+
+<v-clicks>
+
+## Limits and cautions
+
+</v-clicks>
+
+<v-clicks>
+
+- **Can be wrong (“hallucinations”)** → May sound confident but provide incorrect information; always verify.
+
+- **Not medical, legal, or financial advice** → Use for learning, not for professional decision-making.
+
+- **May be out of date** → Some models don’t have live data; ask for sources or updates.
+
+- **Privacy matters** → Don’t share personal, confidential, or proprietary information.
+
+- **Biases exist** → Reflects training data patterns; double-check for fairness or accuracy.
+
+</v-clicks>
+
+---
+
+# Privacy & Safety Basics
+
+<v-clicks>
+
+- **Don't share private, financial, or sensitive information.**
+
+- **Remove names, IDs, and other identifiers before sharing content.**
+
+- **Get consent before including others' information or photos.**
+
+- **Review the AI platform's privacy policy** to understand how your data is used or stored.
+
+- **Opt out** of data being used for model training, if possible.
+
+- **Follow all legal and institutional privacy requirements** (FERPA, HIPAA, GDPR, etc.).
+
+- **Remember:** Even "anonymized" data may still be identifiable if context is unique or detailed.
+
+- **Use summaries or excerpts instead of uploading full files.**
+
+</v-clicks>
+
+---
+
+# Checklist Before Sharing
+
+<v-clicks>
+
+- **Does this include sensitive/personal/financial info?**
+  - ➔ Redact or remove details; ensure it's truly anonymized.
+
+- **Are other people referenced?**
+  - ➔ Get explicit consent, or further anonymize content.
+
+- **Need to upload a file?**
+  - ➔ Use excerpts or summaries; remove sensitive data.
+  
+- **Have you checked the platform's privacy policy and settings?**
+
+</v-clicks>
+
+---
+layout: center
+class: text-center
+---
+
+# Session 1 Wrap
+
+**One takeaway:** What surprised you most about AI today?  
+**One caution:** What will you *avoid* sharing with AI tools?
+
+---
+layout: center
+class: text-center
+---
+
+# Session 2
+**Prompting + Practice: getting consistently useful results**
+
+---
+layout: two-cols-header
+---
+
+# Session 2 Agenda (60 minutes)
+
+::left::
+
+- Quick recap (5)
+- What you can do with ChatGPT (10)
+- Live demos (10)
+- Prompt patterns (15)
+
+::right::
+
+- Guided practice (15)
+- Share‑outs + Q&A (5)
+- Homework assignment (last 5)
+<br><br><br><br><br><br><br><br><br>
+
+---
+
+# A few common ways AI is used today
+
+<v-clicks>
+
+- 💬 **Conversational Assistants:**  
+  Chatbots like ChatGPT, Google Gemini, and Claude help answer questions and automate everyday tasks.
+
+- 🎨 **Image and Art Generation:**  
+  Tools such as DALL·E and Midjourney can create unique images from simple text prompts.
+
+- 📈 **Business Productivity:**  
+  Automate emails, summarize meetings, write reports, and generate marketing content.
+
+- 🧠 **Education & Tutoring:**  
+  Personalized explanations, homework help, and support for language learning.
+
+- 🎙️ **Realistic Voice Companions:**  
+  Platforms such as Sesame offer expressive AI voices for lifelike conversation.
+
+- 🎥 **AI Video Creation:**  
+  Text‑to‑video tools evolve fast. OpenAI’s Sora 2 exists, but the Sora web/app is scheduled to be discontinued on **April 26, 2026**—so we’ll treat video demos as “optional” and have alternatives ready.
+
+</v-clicks>
+
+---
+layout: center
+---
+
+# <a href="https://app.sesame.com/" target="_blank">Conversational voice demo</a>
+
+---
+layout: center
+---
+
+# Video creation demos
+
+### <a href="https://sora.chatgpt.com/explore" target="_blank">Sora (while available)</a>
+### <a href="https://runwayml.com/" target="_blank">Runway</a>
+### <a href="https://pika.art/" target="_blank">Pika</a>
+---
+layout: center
+---
+
+# <a href="https://chatgpt.com" target="_blank">ChatGPT demo</a>
+
+---
+
+# A few practical ways to use ChatGPT
+
+<v-clicks>
+
+1. 📝 **Draft Emails or Messages**  
+   Quickly write polite, professional, or friendly emails and texts.
+
+2. 📅 **Plan Your Day or Week**  
+   Request a customized daily schedule tailored to your tasks and preferences.
+
+3. 🍽️ **Meal Planning and Recipes**  
+   Get meal ideas based on ingredients you have or dietary needs.
+
+4. 📚 **Explain Complex Topics Simply**  
+   Ask for an easy-to-understand explanation of concepts like credit scores or climate change.
+
+5. 🛠️ **Brainstorm Ideas**  
+   Generate creative ideas for gifts, events, projects, or side hustles.
+
+6. 🌍 **Translate and Adapt**  
+   Translate messages and adjust tone/reading level for your audience.
+
+7. ♿ **Accessibility Helpers**  
+   Simplify to a 6th‑grade reading level or generate step‑by‑step checklists.
+
+</v-clicks>
+
+---
+
+```mermaid
+mindmap
+  root((**Everyday Uses**))
+    Draft
+      Emails
+      Texts
+    Plan
+      Schedules
+      Trips
+    Explain
+      Simple summaries
+      Step-by-step
+    Brainstorm
+      Ideas
+      Outlines
+    Translate
+      Language
+      Tone/reading level
+    Accessibility
+      Simplify to 6th grade
+      Checklists
+```
+
+---
+
+# How to write a good prompt
+
+<v-clicks>
+
+```mermaid
+flowchart LR
+  A[Role] --> B[Task]
+  B --> C[Context]
+  C --> D[Constraints]
+  D --> E[Desired Format]
+  E --> F[Submit]
+  F --> G{Good?}
+  G -- No --> H[Revise: add missing details]
+  H --> F
+  G -- Yes --> I[Use + fact-check]
+```
+</v-clicks>
+
+<v-clicks>
+
+- 🧩 **Be specific**  
+  "Tell me a bedtime story about a robot and a cat" vs. "Write a story"
+- 🗣️ **Use natural language**  
+  Pretend you're talking to a helpful friend, not coding a machine.
+- 🎨 **Set the tone**  
+  Want it funny? Professional? Thoughtful? Just say so!
+- 💡 **Give examples**  
+  "Make it sound like a Shakespearean poem" or "List it like a recipe."
+- 🔁 **Tweak and test**  
+  If the first response isn't great, try rewording or asking from a new angle!
+
+ </v-clicks>
+
+---
+layout: two-cols-header
+---
+
+# Prompt Engineering
+
+::left::
+## ❌ Poor Prompt
+"Write something about dogs."
+
+## 👍🏻 A little better
+“Write a friendly and informative 3-paragraph article for a blog about the benefits of owning a dog, focusing on companionship, exercise, and mental health.”
+
+::right::
+## 🎓 Pro-Level
+ "Write a warm, conversational 3-paragraph blog article that explains the benefits of owning a dog.  
+ - **Paragraph 1:** Introduce why dogs make great companions and how they enrich daily life.  
+ - **Paragraph 2:** Describe how owning a dog encourages physical activity and outdoor exercise.  
+ - **Paragraph 3:** Explain how dogs support mental health and emotional well-being.  
+ Use friendly language, relatable examples, and an uplifting tone suitable for a lifestyle blog."
+
+---
+
+# Prompt Ideas You Can Try Right Now
+
+<v-clicks>
+
+1. ✉️ Write a polite message to reschedule my dentist appointment.
+
+2. 🧑‍🍳 Give me a 3-day healthy meal plan with simple recipes.
+
+3. 🧠 Explain how interest rates work like I’m in 9th grade.
+
+4. 🧳 Suggest a weekend getaway near [a city] under $300.
+
+5. 🎁 What’s a fun birthday gift idea for a 12-year-old who loves space?
+
+6. 🐶 Write a funny haiku about a dog who’s afraid of squirrels.
+
+</v-clicks>
+
+
+---
+layout: two-cols-header
+---
+
+# Group Activity - Try ChatGPT yourself!
+
+::left::
+
+- **<u>Timebox: 10 minutes</u>**
+- On your phone or a shared device:
+  - Scan the QR code to open chatgpt.com →
+- **<u>Enter your prompt:</u>**
+  - Example: Plan a 3-day Southern Utah road trip with kids (ages 12, 9, 6).
+  - Now, try changing the destination or group type.
+- No smartphone? Pair with a neighbor.
+- Share your results with the group (2–3 volunteers)
+
+::right::
+
+<img width="300" src="/chatGPT-qr.png" alt="QR code linking to chatgpt.com" />
+<br>
+<br>
+<br>
+
+---
+layout: two-cols-header
+---
+
+# Take‑Home Task (Homework)
+
+::left::
+
+### Goal (20–30 minutes)
+Pick a real task you do at work, school, or home and use ChatGPT to improve it.
+
+**Choose one:**
+- Draft an email/message
+- Plan a week (schedule + priorities)
+- Learn something (explain + quiz me)
+- Create something (lesson plan, recipe, outline, story)
+
+::right::
+
+### What to bring back
+- Your **best prompt**
+- The **best AI output** (copy/paste)
+- **2 improvements** you made (what you changed in the prompt)
+- A quick note: **What worked? What didn’t?**
+
+<br><br><br><br><br><br><br><br><br>
+
+---
+layout: center
+class: text-center
+---
+
+# Session 3
+**Apply + Plan: workflows, tools, and your personal action plan**
+
+---
+layout: two-cols-header
+---
+
+# Session 3 Agenda (60 minutes)
+
+::left::
+
+- Share homework wins + lessons (15)
+- A few practical workflows (15)
+- Tools landscape (10)
+
+::right::
+
+- Optional multimodal demos (10)
+- Personal “AI starter kit” plan (5)
+- Q&A + next steps (5)
+<br><br><br><br><br><br><br><br><br>
+
+---
+layout: center
+class: text-center
+---
+
+# Homework Share-Out
+
+**Share with the group:**
+
+- Your best prompt
+- The most useful output you got
+- One thing you changed to improve the result
+- What surprised you — or what didn't work?
+
+---
+layout: two-cols-header
+---
+
+# Practical Workflows: AI in Action
+
+::left::
+
+### ✉️ Email Workflow
+1. **Draft** — "Write a professional follow-up after a meeting."
+2. **Refine** — "Make it shorter with a clear call to action."
+3. **Verify** — Read it yourself before sending.
+
+### 📋 Planning Workflow
+1. **Brainstorm** — "List 10 ways to improve my morning routine."
+2. **Filter** — "Pick the 3 most practical for a busy parent."
+3. **Expand** — "Build a 1-week plan to try them."
+
+::right::
+
+### 🔍 Research Workflow
+1. **Ask** — "Explain [topic] in simple terms."
+2. **Dig deeper** — "What are the pros and cons?"
+3. **Verify** — Confirm key facts with a trusted source.
+
+### 🧠 The Golden Rule
+> AI gives you a **first draft**, not a final answer.  
+> You bring the judgment, context, and verification.
+
+---
+layout: center
+class: text-center
+---
+
+# Major AI Providers (2026)
+**🤖 Leaders shaping the AI ecosystem**
+
+<div class="grid grid-cols-2 md:grid-cols-3 gap-10 justify-center items-center mt-8">
+
+  <!-- OpenAI -->
+  <div v-click class="flex flex-col items-center">
+    <img src="https://logo.clearbit.com/openai.com" alt="OpenAI" class="h-20 mb-2" />
+    <span class="text-sm font-medium">OpenAI (ChatGPT)</span>
+  </div>
+
+  <!-- Anthropic -->
+  <div v-click class="flex flex-col items-center">
+    <img src="https://logo.clearbit.com/anthropic.com" alt="Anthropic" class="h-20 mb-2" />
+    <span class="text-sm font-medium">Anthropic (Claude)</span>
+  </div>
+
+  <!-- Google (Gemini) -->
+  <div v-click class="flex flex-col items-center">
+    <img src="https://logo.clearbit.com/google.com" alt="Google Gemini" class="h-20 mb-2" />
+    <span class="text-sm font-medium">Google (Gemini)</span>
+  </div>
+
+  <!-- Perplexity -->
+  <div v-click class="flex flex-col items-center">
+    <img src="https://logo.clearbit.com/perplexity.ai" alt="Perplexity" class="h-20 mb-2" />
+    <span class="text-sm font-medium">Perplexity</span>
+  </div>
+
+  <!-- Meta (LLaMA) -->
+  <div v-click class="flex flex-col items-center">
+    <img src="https://logo.clearbit.com/meta.com" alt="Meta LLaMA" class="h-20 mb-2" />
+    <span class="text-sm font-medium">Meta (LLaMA)</span>
+  </div>
+
+  <!-- xAI (Grok) -->
+  <div v-click class="flex flex-col items-center">
+    <img src="https://logo.clearbit.com/x.ai" alt="xAI Grok" class="h-20 mb-2" />
+    <span class="text-sm font-medium">xAI (Grok)</span>
+  </div>
+
+</div>
+
+---
+
+# AI Tools at a Glance
+
+| Tool | Best For | Free Tier | Live Web | Image Gen |
+|---|---|---|---|---|
+| **ChatGPT** | Writing, coding, general use | ✅ | ✅ | ✅ DALL·E |
+| **Claude** | Long docs, nuanced writing | ✅ | ✅ | ❌ |
+| **Gemini** | Google Workspace integration | ✅ | ✅ | ✅ |
+| **Perplexity** | Research with citations | ✅ | ✅ | ❌ |
+| **Copilot** | Microsoft 365 / coding | ✅ | ✅ | ✅ |
+| **Meta AI** | Casual chat, social platforms | ✅ | ✅ | ✅ |
+
+---
+layout: center
+---
+
+# Optional: Multimodal Demos
+
+### 🎨 Image Generation
+- <a href="https://chat.openai.com" target="_blank">ChatGPT (DALL·E)</a> — describe a scene, get an image
+- <a href="https://gemini.google.com" target="_blank">Gemini</a> — Google's image creation tool
+
+### 🎙️ Voice
+- <a href="https://app.sesame.com/" target="_blank">Sesame</a> — lifelike AI voice companion
+- ChatGPT Voice Mode (mobile app)
+
+### 🎥 Video Generation
+- <a href="https://runwayml.com/" target="_blank">Runway</a> — text-to-video
+- <a href="https://pika.art/" target="_blank">Pika</a> — short video from prompts
+
+---
+layout: two-cols-header
+---
+
+# Your Personal AI Starter Kit
+
+::left::
+
+### Choose your tool
+- ☐ ChatGPT
+- ☐ Claude
+- ☐ Gemini
+- ☐ Other: ___________
+
+### Choose your first use case
+- ☐ Email / messages
+- ☐ Planning / scheduling
+- ☐ Learning / research
+- ☐ Creative writing
+- ☐ Other: ___________
+
+::right::
+
+### Write your first prompt
+Use this template:
+
+> "Act as a [role]. Help me [task].  
+> Context: [relevant details].  
+> Format the response as [bullets / paragraph / table]."
+
+### Commit to one thing
+Tell one person what you tried — and what happened.
+
+---
+layout: center
+class: text-center
+---
+
+# What's Next
+
+**The skill is in the iteration — keep practicing.**
+
+- 🤖 **ChatGPT** — <a href="https://chatgpt.com" target="_blank">chatgpt.com</a>
+- 🧠 **Claude** — <a href="https://claude.ai" target="_blank">claude.ai</a>
+- 🔍 **Gemini** — <a href="https://gemini.google.com" target="_blank">gemini.google.com</a>
+- 📰 **Perplexity** (research with sources) — <a href="https://perplexity.ai" target="_blank">perplexity.ai</a>
+- 📖 **Learn Prompting** (free guide) — <a href="https://learnprompting.org" target="_blank">learnprompting.org</a>
+
+---
+
+# Questions?
+
+<img src="/qna-slide.png" alt="Questions and answers illustration" />
+
+---
+layout: image-left
+
+image: end-slide.png
+---
+
+# Happy trails!
+
+👋🏻 Thanks for your time.
+
+💡 Want more? Jump in and start exploring:
+
+- 🤖 <a href="https://chatgpt.com" target="_blank">chatgpt.com</a> — OpenAI's ChatGPT
+- 🧠 <a href="https://claude.ai" target="_blank">claude.ai</a> — Anthropic's Claude
+- 🔍 <a href="https://gemini.google.com" target="_blank">gemini.google.com</a> — Google's Gemini
