@@ -44,16 +44,19 @@ h1 {
 **Garth Tuck**
 
 ---
-layout: image-right
-
-image: /title-slide.png
+layout: two-cols-header
 ---
 
 # Workshop Goals
 
+::left::
+
 - Explain generative AI in plain language
 - Notice a few ways AI already shows up in daily life
 - Practice writing and improving prompts on your phone
+
+::right::
+
 - Learn when AI is useful and when you should slow down and verify
 - Use AI safely without sharing private or sensitive information
 - Leave with one real task you can try this week
