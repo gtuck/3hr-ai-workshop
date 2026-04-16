@@ -3,7 +3,7 @@ theme: apple-basic
 # background: https://cover.sli.dev
 
 # force color schema for the slides, can be 'auto', 'light', or 'dark'
-colorSchema: light
+colorSchema: dark
 
 # favicon, can be a local file path or URL
 favicon: "https://garthtuck.com/images/favicon.ico"
@@ -77,7 +77,7 @@ layout: two-cols-header
 ::right::
 
 ### Housekeeping
-- Wi‑Fi: [Liahona], Password: [alma3738]
+- Wi‑Fi: We have none in the building yet
 - You can do the activities on your phone
 - Pair up if you don’t have a device or account
 - Raise your hand for help anytime
