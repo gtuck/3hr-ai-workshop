@@ -44,6 +44,11 @@ h1 {
 **Garth Tuck**
 
 ---
+layout: image-right
+
+image: /title-slide.png
+---
+
 # Workshop Goals
 
 - Explain generative AI in plain language
@@ -370,6 +375,9 @@ layout: two-cols-header
 </v-clicks>
 
 ---
+layout: default
+---
+
 # Live Demo Flow
 
 1. Start with a real task
