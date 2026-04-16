@@ -47,43 +47,32 @@ h1 {
 layout: two-cols-header
 ---
 
-# Workshop Goals
+# Workshop Overview + Housekeeping
 
 ::left::
 
-- Explain generative AI in plain language
-- Notice a few ways AI already shows up in daily life
+### By the end, you will:
+- Understand what generative AI is and where it already shows up
 - Practice writing and improving prompts on your phone
+- Learn when to verify, slow down, and protect your privacy
+- Leave with one real task to try this week
+
+### 3 x 1‑Hour Sessions:
+- **Session 1:** Foundations, safety, and privacy
+- **Session 2:** Prompting, phone demos, and guided practice
+- **Session 3:** Everyday workflows and your action plan
 
 ::right::
 
-- Learn when AI is useful and when you should slow down and verify
-- Use AI safely without sharing private or sensitive information
-- Leave with one real task you can try this week
-
----
-layout: two-cols-header
----
-
-# Series Agenda + Housekeeping
-
-::left::
-
-### Workshop Environment:
+### Workshop Environment
 - Open, inclusive, and curiosity-driven
-
-### 3 x 1‑Hour Sessions
-- **Session 1 — Foundations:** What GenAI is, what it does well, safety and privacy
-- **Session 2 — Prompting + Practice:** Prompt patterns, phone demos, guided hands‑on
-- **Session 3 — Apply + Plan:** Everyday workflows and your personal action plan
-
-::right::
+- Questions and help are welcome at any time
 
 ### Housekeeping
 - Wi‑Fi: We have none in the building yet
-- You can do the activities on your phone
+- Activities are designed for use on your phone
 - Pair up if you don’t have a device or account
-- Raise your hand for help anytime
+- Raise your hand anytime if you need help
 
 ---
 layout: center
@@ -226,14 +215,14 @@ layout: two-cols-header
 layout: two-cols-header
 ---
 
-# What ChatGPT Is and Isn’t
+# What AI Chat Is and Isn’t
 
 
 ::left::
 
 <v-clicks>
 
-## What it’s good at
+## What AI chat is good at
 
 </v-clicks>
 
