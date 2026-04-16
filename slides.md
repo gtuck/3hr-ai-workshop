@@ -44,20 +44,14 @@ h1 {
 **Garth Tuck**
 
 ---
-layout: image-right
+# Workshop Goals
 
-image: /title-slide.png
----
-
-# Workshop Goals:
-
-- Understand what generative AI is and how it works  
-- Explore real-world examples of how AI already impacts our lives  
-- A few milestones in AI history and key AI vocabulary and concepts  
-- Practice writing effective prompts to get helpful responses from ChatGPT  
-- Try hands-on tools and leave with ideas you can apply right away  
-- Build a mini “AI starter kit” across **3 one‑hour sessions** (with a take‑home task)  
-- Have FUN!!!
+- Explain generative AI in plain language
+- Notice a few ways AI already shows up in daily life
+- Practice writing and improving prompts on your phone
+- Learn when AI is useful and when you should slow down and verify
+- Use AI safely without sharing private or sensitive information
+- Leave with one real task you can try this week
 
 ---
 layout: two-cols-header
@@ -71,17 +65,17 @@ layout: two-cols-header
 - Open, inclusive, and curiosity-driven
 
 ### 3 x 1‑Hour Sessions
-- **Session 1 — Foundations:** What GenAI is, vocabulary, milestones, safety & privacy
-- **Session 2 — Prompting + Practice:** Prompt patterns, demos, guided hands‑on
-- **Session 3 — Apply + Plan:** Tools landscape, workflows, your personal action plan
+- **Session 1 — Foundations:** What GenAI is, what it does well, safety and privacy
+- **Session 2 — Prompting + Practice:** Prompt patterns, phone demos, guided hands‑on
+- **Session 3 — Apply + Plan:** Everyday workflows and your personal action plan
 
 ::right::
 
 ### Housekeeping
 - Wi‑Fi: [Liahona], Password: [alma3738]
-- Pair up if you don’t have a device
+- You can do the activities on your phone
+- Pair up if you don’t have a device or account
 - Raise your hand for help anytime
-<br><br><br><br><br><br><br><br><br>
 
 ---
 layout: center
@@ -102,14 +96,13 @@ layout: two-cols-header
 - Welcome + quick intros (5)
 - AI in daily life (10)
 - Core vocabulary (10)
-- Key milestones (10)
+- Why AI feels different now (10)
 
 ::right::
 
 - What ChatGPT is / isn’t (10)
 - Privacy + safety basics (10)
 - Wrap + prep for Session 2 (5)
-<br><br><br><br><br><br><br><br><br>
 
 ---
 layout: quote
@@ -185,37 +178,27 @@ timeline
   1997 : Deep Blue beats Kasparov
   2012 : ImageNet/AlexNet breakthrough
   2022 : ChatGPT released to the public
-  2024 : GPT‑4o popularizes real‑time multimodal (text+vision+audio)
-  2024 : Sora (text‑to‑video) released
-  2025 : Sora 2 (video+audio) released
+  2024 : Multimodal AI becomes mainstream
 ```
 
-<v-clicks>
-
-- 1950 — Turing Test proposed (Can machines converse like humans?)
-- 1956 — Dartmouth workshop coined the term “Artificial Intelligence”
-- 1997 — Deep Blue defeats Garry Kasparov (chess milestone)
-- 2012 — ImageNet/AlexNet sparks the modern deep learning boom
-- 2022 — ChatGPT released to the public
-- 2024 — GPT‑4o brings text, vision, and audio together in one model
-- 2024 — Sora brings text‑to‑video to mainstream users
+- AI is not brand new.
+- What changed recently is **access**: better tools, lower cost, and easier use on phones and laptops.
+- For this workshop, the key date is **2022** when conversational AI became easy for the public to try.
 ---
 layout: two-cols-header
 ---
 
-# More AI Milestones
+# Why AI Feels Different Now
 
 ::left::
 
 <v-clicks>
 
-- **2011 – IBM Watson Wins Jeopardy!**<br>Defeats human champions with deep NLP (Natural Language Processing) and fact retrieval.
+- **You can talk to it naturally**<br>It feels more like messaging a helper than programming a machine.
 
-- **2012 – ImageNet & AlexNet Breakthrough**<br>Deep learning revolution begins with CNNs (Convolutional Neural Networks) and visual recognition success.
+- **It works on the devices people already own**<br>Most people can try it on a phone in minutes.
 
-- **2016 – AlphaGo Beats Lee Sedol**<br>Reinforcement learning and self-play reach new levels of strategy.
-
-- **2020 – GPT-3 Released by OpenAI**<br>Natural language generation reaches astonishing fluency and scale.
+- **It can handle more than plain text**<br>Some tools can work with voice, images, files, and web results.
 
 </v-clicks>
 
@@ -223,18 +206,13 @@ layout: two-cols-header
 
 <v-clicks>
 
-- **2022 – ChatGPT Goes Mainstream**<br>Conversational AI enters daily use with GPT-powered assistants.
+- **It is built into more apps and services**<br>Search, writing help, photo tools, and assistants now include AI features.
 
-- **2023 – AI-Generated Art and Code Boom**<br>Tools like DALL·E, Copilot, and Midjourney reshape creative and coding work.
+- **The quality can be surprisingly good**<br>That makes it useful, but also easy to trust too quickly.
 
-- **2024 – GPT‑4o (Multimodal) Release**<br>A major step toward seamless text, image, and voice experiences.
-
-- **2025 – Sora 2 Release**<br>Video + audio generation in a single system.
+- **Your judgment still matters**<br>Useful does not mean accurate, fair, private, or appropriate.
 
 </v-clicks>
-<br>
-<br>
-<br>
 
 ---
 layout: two-cols-header
@@ -253,15 +231,15 @@ layout: two-cols-header
 
 <v-clicks>
 
-- **Drafting and rewriting** → Generates first drafts, refines text, and adapts tone or style.
+- **Drafting and rewriting** → Messages, emails, posts, reminders, and first drafts.
 
-- **Summarizing and outlining** → Condenses long materials into key points or structured outlines.
+- **Summarizing and organizing** → Turns long text into bullet points, checklists, or short summaries.
 
-- **Brainstorming ideas** → Sparks creativity for names, titles, lessons, or storylines.
+- **Planning and brainstorming** → Helps with errands, meal plans, travel ideas, and next steps.
 
-- **Explaining concepts** → Breaks down complex topics in plain language or step-by-step guides.
+- **Explaining concepts** → Breaks down unfamiliar topics in plain language.
 
-- **Tutoring and learning aid** → Provides examples, explanations, and feedback for study or practice.
+- **Translating and adapting tone** → Rewrites for clearer, friendlier, shorter, or simpler communication.
 
 </v-clicks>
 
@@ -275,15 +253,15 @@ layout: two-cols-header
 
 <v-clicks>
 
-- **Can be wrong (“hallucinations”)** → May sound confident but provide incorrect information; always verify.
+- **Can be wrong while sounding confident** → Always verify important facts.
 
-- **Not medical, legal, or financial advice** → Use for learning, not for professional decision-making.
+- **Not a replacement for experts** → Medical, legal, and financial decisions need trusted sources.
 
-- **May be out of date** → Some models don’t have live data; ask for sources or updates.
+- **May miss local or recent details** → Prices, policies, events, and deadlines can change quickly.
 
-- **Privacy matters** → Don’t share personal, confidential, or proprietary information.
+- **Does not know your life unless you tell it** → Missing context leads to generic or off-base answers.
 
-- **Biases exist** → Reflects training data patterns; double-check for fairness or accuracy.
+- **Bias and blind spots exist** → Double-check tone, assumptions, and fairness.
 
 </v-clicks>
 
@@ -293,40 +271,38 @@ layout: two-cols-header
 
 <v-clicks>
 
-- **Don't share private, financial, or sensitive information.**
+- **Do not paste private, financial, medical, or account information.**
 
-- **Remove names, IDs, and other identifiers before sharing content.**
+- **Remove names, IDs, addresses, account numbers, and passwords.**
 
-- **Get consent before including others' information or photos.**
+- **Get consent before including someone else's messages, photo, or personal details.**
 
-- **Review the AI platform's privacy policy** to understand how your data is used or stored.
+- **On a phone, check screenshots and photos carefully** before uploading anything.
 
-- **Opt out** of data being used for model training, if possible.
+- **Use summaries or excerpts instead of full documents whenever possible.**
 
-- **Follow all legal and institutional privacy requirements** (FERPA, HIPAA, GDPR, etc.).
+- **Review the tool's privacy settings** and opt out of training use if that matters for your situation.
 
-- **Remember:** Even "anonymized" data may still be identifiable if context is unique or detailed.
+- **Remember:** "Anonymous" is not always anonymous if the situation is very specific.
 
-- **Use summaries or excerpts instead of uploading full files.**
+- **When in doubt, leave it out** and ask in a more general way.
 
 </v-clicks>
 
 ---
 
-# Checklist Before Sharing
+# Safer Prompt Example
 
 <v-clicks>
 
-- **Does this include sensitive/personal/financial info?**
-  - ➔ Redact or remove details; ensure it's truly anonymized.
+- **Too much:**  
+  "Summarize this email from my child's teacher. Her name is ____ and our phone number is ____."
 
-- **Are other people referenced?**
-  - ➔ Get explicit consent, or further anonymize content.
+- **Safer:**  
+  "Summarize this school message in three bullets. Remove names and personal details. Tell me if there is any action item or deadline."
 
-- **Need to upload a file?**
-  - ➔ Use excerpts or summaries; remove sensitive data.
-  
-- **Have you checked the platform's privacy policy and settings?**
+- **Better habit:**  
+  Share only the part you need help with, not the whole thread.
 
 </v-clicks>
 
@@ -357,117 +333,95 @@ layout: two-cols-header
 ::left::
 
 - Quick recap (5)
-- What you can do with ChatGPT (10)
-- Live demos (10)
+- One phone demo from start to finish (10)
+- What makes a prompt useful (10)
 - Prompt patterns (15)
 
 ::right::
 
-- Guided practice (15)
+- Guided phone practice (15)
 - Share‑outs + Q&A (5)
-- Homework assignment (last 5)
-<br><br><br><br><br><br><br><br><br>
+- Take‑home task (last 5)
 
 ---
 
-# A few common ways AI is used today
+# Everyday Tasks That Work Well on a Phone
 
 <v-clicks>
 
-- 💬 **Conversational Assistants:**  
-  Chatbots like ChatGPT, Google Gemini, and Claude help answer questions and automate everyday tasks.
+- 💬 **Write or rewrite a message**  
+  Ask for a text, email, follow-up, or reminder in a specific tone.
 
-- 🎨 **Image and Art Generation:**  
-  Tools such as DALL·E and Midjourney can create unique images from simple text prompts.
+- 📅 **Plan something practical**  
+  Organize errands, meals, trips, study time, or a busy week.
 
-- 📈 **Business Productivity:**  
-  Automate emails, summarize meetings, write reports, and generate marketing content.
+- 📚 **Understand something faster**  
+  Get a plain-language explanation, a summary, or a short quiz.
 
-- 🧠 **Education & Tutoring:**  
-  Personalized explanations, homework help, and support for language learning.
+- 🌍 **Translate or simplify**  
+  Rewrite for a different audience, reading level, or language.
 
-- 🎙️ **Realistic Voice Companions:**  
-  Platforms such as Sesame offer expressive AI voices for lifelike conversation.
+- ✅ **Turn a messy idea into a checklist**  
+  Great for starting when you are stuck or overwhelmed.
 
-- 🎥 **AI Video Creation:**  
-  Text‑to‑video tools evolve fast. OpenAI’s Sora 2 exists, but the Sora web/app is scheduled to be discontinued on **April 26, 2026**—so we’ll treat video demos as “optional” and have alternatives ready.
+- ⚠️ **Still verify before acting**  
+  Helpful first draft, not a final answer.
 
 </v-clicks>
 
 ---
-layout: center
----
+# Live Demo Flow
 
-# <a href="https://app.sesame.com/" target="_blank">Conversational voice demo</a>
+1. Start with a real task
+2. Ask in a simple, natural sentence
+3. Add missing details
+4. Ask for a better format
+5. Check the result before you use it
 
----
-layout: center
----
+### Example phone task
 
-# Video creation demos
+**"Write a short text to reschedule my dentist appointment for next week."**
 
-### <a href="https://sora.chatgpt.com/explore" target="_blank">Sora (while available)</a>
-### <a href="https://runwayml.com/" target="_blank">Runway</a>
-### <a href="https://pika.art/" target="_blank">Pika</a>
----
-layout: center
----
-
-# <a href="https://chatgpt.com" target="_blank">ChatGPT demo</a>
+Then improve it by adding tone, timing, and word limit.
 
 ---
 
-# A few practical ways to use ChatGPT
+# Pick a Starter Task
 
 <v-clicks>
 
-1. 📝 **Draft Emails or Messages**  
-   Quickly write polite, professional, or friendly emails and texts.
+1. 📝 **Message someone**  
+   Reschedule, follow up, thank someone, or ask for help.
 
-2. 📅 **Plan Your Day or Week**  
-   Request a customized daily schedule tailored to your tasks and preferences.
+2. 📅 **Plan your day or week**  
+   Ask for a simple schedule that fits your real constraints.
 
-3. 🍽️ **Meal Planning and Recipes**  
-   Get meal ideas based on ingredients you have or dietary needs.
+3. 🍽️ **Plan meals or groceries**  
+   Use ingredients you already have and a budget you can afford.
 
-4. 📚 **Explain Complex Topics Simply**  
-   Ask for an easy-to-understand explanation of concepts like credit scores or climate change.
+4. 📚 **Explain something clearly**  
+   Ask for a plain-language explanation with examples.
 
-5. 🛠️ **Brainstorm Ideas**  
-   Generate creative ideas for gifts, events, projects, or side hustles.
+5. 🛠️ **Brainstorm options**  
+   Gifts, events, side projects, or questions to ask before a decision.
 
-6. 🌍 **Translate and Adapt**  
-   Translate messages and adjust tone/reading level for your audience.
+6. 🌍 **Translate or adapt**  
+   Change language, tone, length, or reading level.
 
-7. ♿ **Accessibility Helpers**  
-   Simplify to a 6th‑grade reading level or generate step‑by‑step checklists.
+7. ♿ **Make information easier to use**  
+   Turn it into a checklist, summary, or simpler version.
 
 </v-clicks>
 
 ---
 
-```mermaid
-mindmap
-  root((**Everyday Uses**))
-    Draft
-      Emails
-      Texts
-    Plan
-      Schedules
-      Trips
-    Explain
-      Simple summaries
-      Step-by-step
-    Brainstorm
-      Ideas
-      Outlines
-    Translate
-      Language
-      Tone/reading level
-    Accessibility
-      Simplify to 6th grade
-      Checklists
-```
+# When the First Answer Misses
+
+- Add **context**: who, what, where, why
+- Add **constraints**: budget, time, tone, word count
+- Add **format**: text message, bullets, checklist, table
+- Add **audience**: friend, coworker, parent, student, customer
+- Ask for **another version** instead of starting over
 
 ---
 
@@ -492,15 +446,15 @@ flowchart LR
 <v-clicks>
 
 - 🧩 **Be specific**  
-  "Tell me a bedtime story about a robot and a cat" vs. "Write a story"
+  "Write a short text asking to reschedule my appointment" works better than "Help me write something."
 - 🗣️ **Use natural language**  
-  Pretend you're talking to a helpful friend, not coding a machine.
+  You do not need special commands. Just describe the task like you would to a helpful assistant.
 - 🎨 **Set the tone**  
-  Want it funny? Professional? Thoughtful? Just say so!
-- 💡 **Give examples**  
-  "Make it sound like a Shakespearean poem" or "List it like a recipe."
+  Say if you want it friendly, professional, calm, short, direct, or simple.
+- 💡 **Give constraints**  
+  Include details like audience, deadline, budget, or maximum length.
 - 🔁 **Tweak and test**  
-  If the first response isn't great, try rewording or asking from a new angle!
+  If the first answer is close but not quite right, revise instead of giving up.
 
  </v-clicks>
 
@@ -512,18 +466,18 @@ layout: two-cols-header
 
 ::left::
 ## ❌ Poor Prompt
-"Write something about dogs."
+"Write a text to my landlord."
 
 ## 👍🏻 A little better
-“Write a friendly and informative 3-paragraph article for a blog about the benefits of owning a dog, focusing on companionship, exercise, and mental health.”
+"Write a polite text to my landlord asking when the dishwasher will be fixed."
 
 ::right::
 ## 🎓 Pro-Level
- "Write a warm, conversational 3-paragraph blog article that explains the benefits of owning a dog.  
- - **Paragraph 1:** Introduce why dogs make great companions and how they enrich daily life.  
- - **Paragraph 2:** Describe how owning a dog encourages physical activity and outdoor exercise.  
- - **Paragraph 3:** Explain how dogs support mental health and emotional well-being.  
- Use friendly language, relatable examples, and an uplifting tone suitable for a lifestyle blog."
+"Write a short, polite text to my landlord, Jordan.  
+The dishwasher has not worked since Monday.  
+I already reported it once.  
+Ask for an update and suggest a repair window after 5 p.m.  
+Keep it under 70 words and sound calm, not angry."
 
 ---
 
@@ -533,15 +487,15 @@ layout: two-cols-header
 
 1. ✉️ Write a polite message to reschedule my dentist appointment.
 
-2. 🧑‍🍳 Give me a 3-day healthy meal plan with simple recipes.
+2. 🧑‍🍳 Give me 3 simple dinners from these ingredients: [list].
 
-3. 🧠 Explain how interest rates work like I’m in 9th grade.
+3. 🧠 Explain what a deductible is in plain language.
 
-4. 🧳 Suggest a weekend getaway near [a city] under $300.
+4. 🧳 Plan a low-cost day trip near [my city] under [$ amount].
 
-5. 🎁 What’s a fun birthday gift idea for a 12-year-old who loves space?
+5. 📝 Turn these messy notes into a checklist: [paste notes].
 
-6. 🐶 Write a funny haiku about a dog who’s afraid of squirrels.
+6. 🌍 Translate this text into [language] and keep it friendly.
 
 </v-clicks>
 
@@ -550,52 +504,53 @@ layout: two-cols-header
 layout: two-cols-header
 ---
 
-# Group Activity - Try ChatGPT yourself!
+# Group Activity - Try It on Your Phone
 
 ::left::
 
 - **<u>Timebox: 10 minutes</u>**
-- On your phone or a shared device:
-  - Scan the QR code to open chatgpt.com →
-- **<u>Enter your prompt:</u>**
-  - Example: Plan a 3-day Southern Utah road trip with kids (ages 12, 9, 6).
-  - Now, try changing the destination or group type.
-- No smartphone? Pair with a neighbor.
-- Share your results with the group (2–3 volunteers)
+- Open your AI app or mobile browser
+- Pick **one real task** from the previous slide
+- Start with a simple prompt
+- Improve it by adding:
+  - context
+  - constraints
+  - desired format
+- Save your best version with a screenshot or note
+- Pair up if you need a device or account
 
 ::right::
 
-<img width="300" src="/chatGPT-qr.png" alt="QR code linking to chatgpt.com" />
-<br>
-<br>
-<br>
+### Share back
+
+- What task did you choose?
+- What changed when you improved the prompt?
+- What part of the answer still needed your judgment?
 
 ---
 layout: two-cols-header
 ---
 
-# Take‑Home Task (Homework)
+# Take‑Home Task
 
 ::left::
 
 ### Goal (20–30 minutes)
-Pick a real task you do at work, school, or home and use ChatGPT to improve it.
+Pick one real task you do at work, school, home, church, or in your community and use AI to improve it.
 
 **Choose one:**
 - Draft an email/message
-- Plan a week (schedule + priorities)
+- Plan a week or event
 - Learn something (explain + quiz me)
-- Create something (lesson plan, recipe, outline, story)
+- Create something useful (recipe, outline, checklist, flyer text)
 
 ::right::
 
 ### What to bring back
 - Your **best prompt**
-- The **best AI output** (copy/paste)
-- **2 improvements** you made (what you changed in the prompt)
-- A quick note: **What worked? What didn’t?**
-
-<br><br><br><br><br><br><br><br><br>
+- The **best AI output** or a screenshot
+- **2 improvements** you made
+- One thing you **still had to check or fix**
 
 ---
 layout: center
@@ -615,14 +570,13 @@ layout: two-cols-header
 
 - Share homework wins + lessons (15)
 - A few practical workflows (15)
-- Tools landscape (10)
+- Choosing the right tool for the job (10)
 
 ::right::
 
-- Optional multimodal demos (10)
+- Optional phone features (10)
 - Personal “AI starter kit” plan (5)
 - Q&A + next steps (5)
-<br><br><br><br><br><br><br><br><br>
 
 ---
 layout: center
@@ -646,22 +600,22 @@ layout: two-cols-header
 
 ::left::
 
-### ✉️ Email Workflow
-1. **Draft** — "Write a professional follow-up after a meeting."
-2. **Refine** — "Make it shorter with a clear call to action."
-3. **Verify** — Read it yourself before sending.
+### ✉️ Message Workflow
+1. **Draft** — "Write a short follow-up text after today's meeting."
+2. **Refine** — "Make it warmer and cut it to 60 words."
+3. **Verify** — Check tone, names, dates, and next steps.
 
 ### 📋 Planning Workflow
-1. **Brainstorm** — "List 10 ways to improve my morning routine."
-2. **Filter** — "Pick the 3 most practical for a busy parent."
-3. **Expand** — "Build a 1-week plan to try them."
+1. **Brainstorm** — "Give me 8 ways to make weeknights less rushed."
+2. **Filter** — "Pick the 3 easiest for a busy household."
+3. **Expand** — "Turn those into a simple plan for this week."
 
 ::right::
 
 ### 🔍 Research Workflow
 1. **Ask** — "Explain [topic] in simple terms."
-2. **Dig deeper** — "What are the pros and cons?"
-3. **Verify** — Confirm key facts with a trusted source.
+2. **Clarify** — "What are the main options, pros, and cons?"
+3. **Verify** — Confirm key facts with a trusted source or local policy.
 
 ### 🧠 The Golden Rule
 > AI gives you a **first draft**, not a final answer.  
@@ -672,79 +626,49 @@ layout: center
 class: text-center
 ---
 
-# Major AI Providers (2026)
-**🤖 Leaders shaping the AI ecosystem**
+# Choose the Right Tool for the Job
 
-<div class="grid grid-cols-2 md:grid-cols-3 gap-10 justify-center items-center mt-8">
+<v-clicks>
 
-  <!-- OpenAI -->
-  <div v-click class="flex flex-col items-center">
-    <img src="https://logo.clearbit.com/openai.com" alt="OpenAI" class="h-20 mb-2" />
-    <span class="text-sm font-medium">OpenAI (ChatGPT)</span>
-  </div>
+- **General chat tools** are good for drafting, explaining, brainstorming, and planning.
+- **Research-focused tools** are better when you want links or cited sources.
+- **Built-in assistants** inside search, phones, or office software can be convenient for quick tasks.
+- The exact brand matters less than the workflow:
+  ask clearly, review carefully, and verify important details.
 
-  <!-- Anthropic -->
-  <div v-click class="flex flex-col items-center">
-    <img src="https://logo.clearbit.com/anthropic.com" alt="Anthropic" class="h-20 mb-2" />
-    <span class="text-sm font-medium">Anthropic (Claude)</span>
-  </div>
-
-  <!-- Google (Gemini) -->
-  <div v-click class="flex flex-col items-center">
-    <img src="https://logo.clearbit.com/google.com" alt="Google Gemini" class="h-20 mb-2" />
-    <span class="text-sm font-medium">Google (Gemini)</span>
-  </div>
-
-  <!-- Perplexity -->
-  <div v-click class="flex flex-col items-center">
-    <img src="https://logo.clearbit.com/perplexity.ai" alt="Perplexity" class="h-20 mb-2" />
-    <span class="text-sm font-medium">Perplexity</span>
-  </div>
-
-  <!-- Meta (LLaMA) -->
-  <div v-click class="flex flex-col items-center">
-    <img src="https://logo.clearbit.com/meta.com" alt="Meta LLaMA" class="h-20 mb-2" />
-    <span class="text-sm font-medium">Meta (LLaMA)</span>
-  </div>
-
-  <!-- xAI (Grok) -->
-  <div v-click class="flex flex-col items-center">
-    <img src="https://logo.clearbit.com/x.ai" alt="xAI Grok" class="h-20 mb-2" />
-    <span class="text-sm font-medium">xAI (Grok)</span>
-  </div>
-
-</div>
+</v-clicks>
 
 ---
 
-# AI Tools at a Glance
+# How to Compare Tools Without Overthinking It
 
-| Tool | Best For | Free Tier | Live Web | Image Gen |
-|---|---|---|---|---|
-| **ChatGPT** | Writing, coding, general use | ✅ | ✅ | ✅ DALL·E |
-| **Claude** | Long docs, nuanced writing | ✅ | ✅ | ❌ |
-| **Gemini** | Google Workspace integration | ✅ | ✅ | ✅ |
-| **Perplexity** | Research with citations | ✅ | ✅ | ❌ |
-| **Copilot** | Microsoft 365 / coding | ✅ | ✅ | ✅ |
-| **Meta AI** | Casual chat, social platforms | ✅ | ✅ | ✅ |
+<v-clicks>
+
+- Does it work well on **your phone**?
+- Can you use it for **free or low cost**?
+- Does it give **sources** when you need them?
+- Are the **privacy settings** acceptable for your situation?
+- Does it support the format you need: text, voice, image, or file upload?
+
+</v-clicks>
 
 ---
 layout: center
 ---
 
-# Optional: Multimodal Demos
+# Optional Phone Features to Explore
 
-### 🎨 Image Generation
-- <a href="https://chat.openai.com" target="_blank">ChatGPT (DALL·E)</a> — describe a scene, get an image
-- <a href="https://gemini.google.com" target="_blank">Gemini</a> — Google's image creation tool
+### 🎨 Image Help
+- Describe a flyer, social post, or visual idea
+- Ask for better wording before you generate anything
 
 ### 🎙️ Voice
-- <a href="https://app.sesame.com/" target="_blank">Sesame</a> — lifelike AI voice companion
-- ChatGPT Voice Mode (mobile app)
+- Talk instead of type for quick questions
+- Still verify the answer before acting on it
 
-### 🎥 Video Generation
-- <a href="https://runwayml.com/" target="_blank">Runway</a> — text-to-video
-- <a href="https://pika.art/" target="_blank">Pika</a> — short video from prompts
+### 📷 Camera / Photo Input
+- Ask for help describing, reading, or organizing what is in an image
+- Be careful not to upload private information by accident
 
 ---
 layout: two-cols-header
@@ -764,7 +688,7 @@ layout: two-cols-header
 - ☐ Email / messages
 - ☐ Planning / scheduling
 - ☐ Learning / research
-- ☐ Creative writing
+- ☐ Community / volunteer work
 - ☐ Other: ___________
 
 ::right::
@@ -772,12 +696,16 @@ layout: two-cols-header
 ### Write your first prompt
 Use this template:
 
-> "Act as a [role]. Help me [task].  
+> "I need help with [task].  
 > Context: [relevant details].  
-> Format the response as [bullets / paragraph / table]."
+> Keep it [tone / length / reading level].  
+> Format it as [text / bullets / checklist / table]."
 
 ### Commit to one thing
 Tell one person what you tried — and what happened.
+
+### Keep one safety habit
+Remove names and sensitive details before you paste anything.
 
 ---
 layout: center
@@ -794,23 +722,18 @@ class: text-center
 - 📰 **Perplexity** (research with sources) — <a href="https://perplexity.ai" target="_blank">perplexity.ai</a>
 - 📖 **Learn Prompting** (free guide) — <a href="https://learnprompting.org" target="_blank">learnprompting.org</a>
 
+**This week:** use AI for one small real task, then decide whether it actually saved you time.
+
 ---
 
 # Questions?
 
-<img src="/qna-slide.png" alt="Questions and answers illustration" />
-
 ---
-layout: image-left
+# Thank You
 
-image: end-slide.png
----
+Thanks for your time.
 
-# Happy trails!
-
-👋🏻 Thanks for your time.
-
-💡 Want more? Jump in and start exploring:
+Want more? Start with one small task and keep iterating:
 
 - 🤖 <a href="https://chatgpt.com" target="_blank">chatgpt.com</a> — OpenAI's ChatGPT
 - 🧠 <a href="https://claude.ai" target="_blank">claude.ai</a> — Anthropic's Claude
