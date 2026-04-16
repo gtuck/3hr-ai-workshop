@@ -76,6 +76,12 @@ Typical deployment flow:
 2. Run `npm run build`
 3. Publish `dist`
 
+For GitHub Pages project-site deployments (this repo), include a base path so assets resolve correctly:
+
+```bash
+npm run build -- --base /3hr-ai-workshop/
+```
+
 ## Project Structure
 
 ```text
