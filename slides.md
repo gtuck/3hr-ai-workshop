@@ -568,24 +568,44 @@ layout: two-cols-header
 
 ::left::
 
-- Share homework wins + lessons (15)
+- Quick recap of Sessions 1 + 2 (5)
+- Homework share-out (10)
 - Three repeatable AI workflows (15)
-- Choosing the right tool for the job (10)
 
 ::right::
 
+- Choosing the right tool for the job (10)
 - Helpful phone features (10)
 - Your 7-day action plan (5)
 - Encouragement + next steps (5)
 
 ---
-layout: center
-class: text-center
+layout: two-cols-header
+---
+
+# Quick Recap: Sessions 1 + 2
+
+::left::
+
+### Session 1
+- AI is already part of everyday tools and apps
+- AI chat is useful, but it can still be wrong
+- Privacy: remove names and sensitive details
+- Your judgment matters more than the tool
+
+::right::
+
+### Session 2
+- Better prompts give more useful results
+- Good prompts include context, constraints, and format
+- Revising the prompt is part of the process
+- AI is most helpful when you use it on a real task
+
 ---
 
 # Homework Share-Out
 
-**Share with the group:**
+**Please share with the group:**
 
 - The real task you tried
 - Your most useful prompt revision
@@ -622,19 +642,22 @@ layout: two-cols-header
 > You bring the judgment, context, and final decision.
 
 ---
-layout: center
-class: text-center
----
 
-# Start with the Task, Not the Brand
+# Focus on the task, not the brand
 
 <v-clicks>
 
-- **General chat tools** are good for drafting, planning, explaining, and brainstorming.
-- **Research-focused tools** are better when you want links, citations, or recent information.
-- **Built-in phone or search assistants** are convenient for quick one-off tasks.
-- **Skip AI** when the task is highly personal, high-stakes, or easier to do yourself.
-- The best tool is the one you can use clearly, safely, and consistently.
+- **For research, try Google Gemini**  
+  Useful when you want to explore a topic, compare ideas, and gather information to review further.
+
+- **For writing and chat, try ChatGPT**  
+  Strong for drafting messages, rewriting tone, brainstorming, summarizing, and everyday back-and-forth help.
+
+- **For coding, try Claude**  
+  Helpful for explaining code, debugging, drafting functions, and working through technical problems step by step.
+
+- **No tool is perfect for everything**  
+  Start with the task you need to do, then choose the tool that fits it best.
 
 </v-clicks>
 
@@ -653,8 +676,6 @@ class: text-center
 
 </v-clicks>
 
----
-layout: center
 ---
 
 # Helpful Phone Features to Explore
@@ -675,21 +696,21 @@ layout: center
 layout: two-cols-header
 ---
 
-# Your 7-Day AI Starter Plan
+# Your AI Starter Plan
 
 ::left::
-
-### Choose your tool
-- ☐ ChatGPT
-- ☐ Claude
-- ☐ Gemini
-- ☐ Other: ___________
 
 ### Choose your first use case
 - ☐ Email / messages
 - ☐ Planning / scheduling
 - ☐ Learning / research
 - ☐ Community / volunteer work
+- ☐ Other: ___________
+
+### Choose your tool
+- ☐ ChatGPT
+- ☐ Claude
+- ☐ Gemini
 - ☐ Other: ___________
 
 ::right::
@@ -710,33 +731,49 @@ Use this template:
 Remove names and sensitive details before you paste anything.
 
 ---
-layout: center
-class: text-center
+layout: two-cols-header
 ---
 
 # What's Next
 
-**You do not need to master AI all at once.**
+::left::
 
+### Keep going with the basics
 - Start with **one small, real task**
 - Keep what saves time
 - Ignore what adds friction
 - Verify what matters
 - Let practice build your confidence
 
-**This week:** try one useful workflow, revise the prompt once, and notice what changed.
+::right::
 
+### Explore deeper dives
+- **Claude Desktop** — for a stronger desktop workflow and deeper document or project work
+- **Codex desktop app** — if you want a dedicated AI coding workspace and agent-based software help
+- **Browser integration helpers** — for summarizing pages, rewriting text, and pulling key information while you browse
+- **OpenClaw** — if you are curious about a more advanced, self-hosted personal AI assistant
+
+::bottom::
+
+---
+layout: center
+class: text-center
 ---
 
 # Questions?
 
 ---
-# Thank You
 
-Thanks for your time.
+# Thanks for your time.
 
-AI works best when it supports your judgment, your values, and the work you already care about.
 
-Start small. Stay curious. Keep your judgment.
+**AI works best when it supports your judgment, your values, and the work you already care about.**
 
-You do not need perfect prompts to begin. You just need one useful next step.
+- ✨ Start with one small, real task
+- 🧠 Keep your judgment in the loop
+- 🔁 Revise once before giving up
+- 🌱 Let practice build your confidence
+
+**You do not need perfect prompts to begin. You just need curiosity and one useful next step.**
+
+---
