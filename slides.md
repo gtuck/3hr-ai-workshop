@@ -645,8 +645,6 @@ layout: two-cols-header
 
 # Focus on the task, not the brand
 
-<v-clicks>
-
 - **For research, try Google Gemini**  
   Useful when you want to explore a topic, compare ideas, and gather information to review further.
 
@@ -659,13 +657,9 @@ layout: two-cols-header
 - **No tool is perfect for everything**  
   Start with the task you need to do, then choose the tool that fits it best.
 
-</v-clicks>
-
 ---
 
 # A Simple Tool Check
-
-<v-clicks>
 
 - Does it work well on **your phone**?
 - Is it **easy enough** that you will actually use it again?
@@ -673,8 +667,6 @@ layout: two-cols-header
 - Does it handle the kind of task you want: text, voice, image, or research?
 - Are the **privacy settings** acceptable for your situation?
 - Can you tell when you still need to **verify** the answer?
-
-</v-clicks>
 
 ---
 
@@ -775,5 +767,3 @@ class: text-center
 - 🌱 Let practice build your confidence
 
 **You do not need perfect prompts to begin. You just need curiosity and one useful next step.**
-
----
