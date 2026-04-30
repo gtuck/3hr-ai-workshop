@@ -558,7 +558,7 @@ class: text-center
 ---
 
 # Session 3
-**Apply + Plan: workflows, tools, and your personal action plan**
+**Apply + Grow: practical workflows and your next step**
 
 ---
 layout: two-cols-header
@@ -569,14 +569,14 @@ layout: two-cols-header
 ::left::
 
 - Share homework wins + lessons (15)
-- A few practical workflows (15)
+- Three repeatable AI workflows (15)
 - Choosing the right tool for the job (10)
 
 ::right::
 
-- Optional phone features (10)
-- Personal “AI starter kit” plan (5)
-- Q&A + next steps (5)
+- Helpful phone features (10)
+- Your 7-day action plan (5)
+- Encouragement + next steps (5)
 
 ---
 layout: center
@@ -587,10 +587,10 @@ class: text-center
 
 **Share with the group:**
 
-- Your best prompt
-- The most useful output you got
-- One thing you changed to improve the result
-- What surprised you — or what didn't work?
+- The real task you tried
+- Your most useful prompt revision
+- What you still had to check or fix
+- One way you might use AI again this week
 
 ---
 layout: two-cols-header
@@ -600,55 +600,56 @@ layout: two-cols-header
 
 ::left::
 
-### ✉️ Message Workflow
-1. **Draft** — "Write a short follow-up text after today's meeting."
-2. **Refine** — "Make it warmer and cut it to 60 words."
-3. **Verify** — Check tone, names, dates, and next steps.
+### ✉️ Communication Workflow
+1. **Draft** — Ask for a text, email, or short message.
+2. **Refine** — Adjust the tone, length, and audience.
+3. **Verify** — Check names, dates, facts, and next steps.
 
 ### 📋 Planning Workflow
-1. **Brainstorm** — "Give me 8 ways to make weeknights less rushed."
-2. **Filter** — "Pick the 3 easiest for a busy household."
-3. **Expand** — "Turn those into a simple plan for this week."
+1. **Brainstorm** — Ask for options, ideas, or a rough plan.
+2. **Filter** — Narrow it to what fits your budget, time, or energy.
+3. **Expand** — Turn the best option into a checklist or weekly plan.
 
 ::right::
 
-### 🔍 Research Workflow
-1. **Ask** — "Explain [topic] in simple terms."
-2. **Clarify** — "What are the main options, pros, and cons?"
-3. **Verify** — Confirm key facts with a trusted source or local policy.
+### 📚 Learning Workflow
+1. **Ask** — "Explain [topic] in plain language."
+2. **Clarify** — Ask for examples, steps, or a short quiz.
+3. **Verify** — Confirm important facts with a trusted source.
 
 ### 🧠 The Golden Rule
 > AI gives you a **first draft**, not a final answer.  
-> You bring the judgment, context, and verification.
+> You bring the judgment, context, and final decision.
 
 ---
 layout: center
 class: text-center
 ---
 
-# Choose the Right Tool for the Job
+# Start with the Task, Not the Brand
 
 <v-clicks>
 
-- **General chat tools** are good for drafting, explaining, brainstorming, and planning.
-- **Research-focused tools** are better when you want links or cited sources.
-- **Built-in assistants** inside search, phones, or office software can be convenient for quick tasks.
-- The exact brand matters less than the workflow:
-  ask clearly, review carefully, and verify important details.
+- **General chat tools** are good for drafting, planning, explaining, and brainstorming.
+- **Research-focused tools** are better when you want links, citations, or recent information.
+- **Built-in phone or search assistants** are convenient for quick one-off tasks.
+- **Skip AI** when the task is highly personal, high-stakes, or easier to do yourself.
+- The best tool is the one you can use clearly, safely, and consistently.
 
 </v-clicks>
 
 ---
 
-# How to Compare Tools Without Overthinking It
+# A Simple Tool Check
 
 <v-clicks>
 
 - Does it work well on **your phone**?
-- Can you use it for **free or low cost**?
-- Does it give **sources** when you need them?
+- Is it **easy enough** that you will actually use it again?
+- Does it fit your **budget**?
+- Does it handle the kind of task you want: text, voice, image, or research?
 - Are the **privacy settings** acceptable for your situation?
-- Does it support the format you need: text, voice, image, or file upload?
+- Can you tell when you still need to **verify** the answer?
 
 </v-clicks>
 
@@ -656,25 +657,25 @@ class: text-center
 layout: center
 ---
 
-# Optional Phone Features to Explore
+# Helpful Phone Features to Explore
 
 ### 🎨 Image Help
-- Describe a flyer, social post, or visual idea
-- Ask for better wording before you generate anything
+- Brainstorm flyer text, social captions, or visual ideas
+- Improve wording before you create or post anything
 
 ### 🎙️ Voice
-- Talk instead of type for quick questions
-- Still verify the answer before acting on it
+- Talk instead of type when your hands are busy or you are capturing ideas quickly
+- Great for rough drafts, not for blind trust
 
 ### 📷 Camera / Photo Input
-- Ask for help describing, reading, or organizing what is in an image
-- Be careful not to upload private information by accident
+- Ask for help reading, describing, or organizing what is in an image
+- Double-check photos for names, addresses, or private details before uploading
 
 ---
 layout: two-cols-header
 ---
 
-# Your Personal AI Starter Kit
+# Your 7-Day AI Starter Plan
 
 ::left::
 
@@ -701,8 +702,9 @@ Use this template:
 > Keep it [tone / length / reading level].  
 > Format it as [text / bullets / checklist / table]."
 
-### Commit to one thing
-Tell one person what you tried — and what happened.
+### Define success
+- I will try this by: ___________
+- I will know it helped if: ___________
 
 ### Keep one safety habit
 Remove names and sensitive details before you paste anything.
@@ -714,15 +716,15 @@ class: text-center
 
 # What's Next
 
-**The skill is in the iteration — keep practicing.**
+**You do not need to master AI all at once.**
 
-- 🤖 **ChatGPT** — <a href="https://chatgpt.com" target="_blank">chatgpt.com</a>
-- 🧠 **Claude** — <a href="https://claude.ai" target="_blank">claude.ai</a>
-- 🔍 **Gemini** — <a href="https://gemini.google.com" target="_blank">gemini.google.com</a>
-- 📰 **Perplexity** (research with sources) — <a href="https://perplexity.ai" target="_blank">perplexity.ai</a>
-- 📖 **Learn Prompting** (free guide) — <a href="https://learnprompting.org" target="_blank">learnprompting.org</a>
+- Start with **one small, real task**
+- Keep what saves time
+- Ignore what adds friction
+- Verify what matters
+- Let practice build your confidence
 
-**This week:** use AI for one small real task, then decide whether it actually saved you time.
+**This week:** try one useful workflow, revise the prompt once, and notice what changed.
 
 ---
 
@@ -733,8 +735,8 @@ class: text-center
 
 Thanks for your time.
 
-Want more? Start with one small task and keep iterating:
+AI works best when it supports your judgment, your values, and the work you already care about.
 
-- 🤖 <a href="https://chatgpt.com" target="_blank">chatgpt.com</a> — OpenAI's ChatGPT
-- 🧠 <a href="https://claude.ai" target="_blank">claude.ai</a> — Anthropic's Claude
-- 🔍 <a href="https://gemini.google.com" target="_blank">gemini.google.com</a> — Google's Gemini
+Start small. Stay curious. Keep your judgment.
+
+You do not need perfect prompts to begin. You just need one useful next step.
