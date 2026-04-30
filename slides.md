@@ -568,16 +568,16 @@ layout: two-cols-header
 
 ::left::
 
-- Quick recap of Sessions 1 + 2 (5)
-- Homework share-out (10)
-- Three repeatable AI workflows (15)
+- Quick Recap: Sessions 1 + 2 (5)
+- Homework Share-Out (10)
+- Practical Workflows: AI in Action (15)
 
 ::right::
 
-- Choosing the right tool for the job (10)
-- Helpful phone features (10)
-- Your 7-day action plan (5)
-- Encouragement + next steps (5)
+- Focus on the task, not the brand + A Simple Tool Check (10)
+- Helpful Phone Features to Explore (10)
+- Your AI Starter Plan (5)
+- What's Next (5)
 
 ---
 layout: two-cols-header
